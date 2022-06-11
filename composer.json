@@ -1,0 +1,44 @@
+{
+  "name": "alex-kish/yii2-redirect-manager",
+  "description": "Yii 2 URL redirect manager",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "extension",
+    "redirect"
+  ],
+  "authors": [
+    {
+      "name": "alex-kish",
+      "email": "stavtolk@gmail.com"
+    }
+  ],
+  "license": "BSD-3-Clause",
+  "require": {
+    "php": ">=7.4.0",
+    "yiisoft/yii2": "2.0.*"
+  },
+  "require-dev": {
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "alexKish\\redirectManager\\": "src/"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "yiisoft/yii2-composer" : true
+    },
+    "process-timeout": 1800,
+    "fxp-asset": {
+      "enabled": false
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}
