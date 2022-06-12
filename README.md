@@ -15,7 +15,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 
 
 ```
-composer require --prefer-dist alex-kish/yii2-redirect-manager:"*"
+composer require alex-kish/yii2-redirect-manager:"*"
 ```
 
 CONFIGURATION
@@ -37,7 +37,7 @@ return [
                 [
                     'from' => '/from-3',
                     'to' => '/to-3',
-                    'status' => alexKish\redirectManager\RedirectRule::REDIRECT_STATUS_CODE_MOVED_TEMPORARILY
+                    'statusCode' => alexKish\redirectManager\RedirectRule::REDIRECT_STATUS_CODE_MOVED_TEMPORARILY
                 ],
             ],
         ],
